@@ -3,14 +3,14 @@
 $gallery_data = json_decode('{
 	"title":   "Fashion",
 	"items": [
-		{"preview": "/images/portfolio/fashion/preview/1.jpg", "image": "/images/portfolio/fashion/1.jpg"},
-		{"preview": "/images/portfolio/fashion/preview/2.jpg", "image": "/images/portfolio/fashion/2.jpg"},
-		{"preview": "/images/portfolio/fashion/preview/3.jpg", "image": "/images/portfolio/fashion/3.jpg"},
-		{"preview": "/images/portfolio/fashion/preview/4.jpg", "image": "/images/portfolio/fashion/4.jpg"},
-		{"preview": "/images/portfolio/fashion/preview/5.jpg", "image": "/images/portfolio/fashion/5.jpg"},
-		{"preview": "/images/portfolio/fashion/preview/6.jpg", "image": "/images/portfolio/fashion/6.jpg"},
-		{"preview": "/images/portfolio/fashion/preview/7.jpg", "image": "/images/portfolio/fashion/7.jpg"},
-		{"preview": "/images/portfolio/fashion/preview/8.jpg", "image": "/images/portfolio/fashion/8.jpg"}
+		{"preview": "/images/portfolio/fashion/preview/01.jpg", "image": "/images/portfolio/fashion/01.jpg"},
+		{"preview": "/images/portfolio/fashion/preview/02.jpg", "image": "/images/portfolio/fashion/02.jpg"},
+		{"preview": "/images/portfolio/fashion/preview/03.jpg", "image": "/images/portfolio/fashion/03.jpg"},
+		{"preview": "/images/portfolio/fashion/preview/04.jpg", "image": "/images/portfolio/fashion/04.jpg"},
+		{"preview": "/images/portfolio/fashion/preview/05.jpg", "image": "/images/portfolio/fashion/05.jpg"},
+		{"preview": "/images/portfolio/fashion/preview/06.jpg", "image": "/images/portfolio/fashion/06.jpg"},
+		{"preview": "/images/portfolio/fashion/preview/07.jpg", "image": "/images/portfolio/fashion/07.jpg"},
+		{"preview": "/images/portfolio/fashion/preview/08.jpg", "image": "/images/portfolio/fashion/08.jpg"}
 	]
 }
 ',true);
