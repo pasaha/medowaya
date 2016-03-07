@@ -1,40 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700,500,600,300,200,100,800,900);
 /*------------------------------------------------------------------
-[TABLE OF CONTENTS]
-
-1. HTML Elements / body, p, h1 - h6, input, textarea, ul, a, ...
-2. Font Styles / .thin-font-weight, .medium-font-weight, ...
-3. Navigation / #top-nav, .page-border, .ext-nav, .menu-toggle, .sidebar
-4. Gallery / .gallery, .grid, .gallery-overlay
-5. Overlays / .page-overlay, .overlay-window
-6. Sliders / .slider, .carousel
-7. Counters / .counters
-8. CSS Animations / .scroll-in-animation, .scroll-animation
-9. Dot Scroll / #dot-scroll
-10. Fluid Blocks / .fluid, .fluid-width, .fluid-height
-11. Loading / .gate, .loader
-12. Google Map / .map-open, .map-canvas, .map-view
-13. Animated Text / .show-list, .textillate
-14. Icons / .icon-set, .circle, .circle-flat
-15. Skill Bars / .skillbars
-16. Video Backgrounds / .youtube-bg, .vimeo-bg, .video-bg
-17. Our Process / .process
-18. Box Blocks / .box
-19. Hover Effect / .hover-effect
-20. Decorations / .button, .line, .half-height, .full-height, .uppercase, .border, ...
-21. Layout / section, .view, .bg, .content
-22. Bootstrap Elements / .lead, .pagination, .panel, .widget-tabs
-23. Blog / .#comments, .avatar, .comment-form, #post-author, .post
-24. Help Pages / .help-toc, .help-toc-titles, .help-credits
-25. Examples / .example-page, .example, pre
-26. Hardware Optimizations / .force3d
-27. Letter Spacing
-28. Home Variants / .home-angie, .home-lynda, .home-lucy, .home-alice, .home-mary, .home-suzi
-29. Customize Panel / #customize-panel
-30. Demo Selection / .select-demo
-31. Colors
-------------------------------------------------------------------*/
-/*------------------------------------------------------------------
 [LAYOUT]
 
 * Page body / body
@@ -60,9 +25,7 @@ Lines:					.top-line, .bottom-line
 Uppercase:				.uppercase
 Disable Uppercase:		.non-uppercase
 ------------------------------------------------------------------*/
-/*==================================================================
-1. HTML Elements / body, p, h1 - h6, input, textarea, ul, a, ...
-==================================================================*/
+/*** HTML Elements / body, p, h1 - h6, input, textarea, ul, a, ... ***/
 body,
 html {
   width: 100%;
@@ -278,9 +241,7 @@ textarea {
   transition: none;
   -webkit-transition: none;
 }
-/*==================================================================
-2. Font Styles / .thin-font-weight, .medium-font-weight, ...
-==================================================================*/
+/*** Font Styles / .thin-font-weight, .medium-font-weight, ... ***/
 .thin-font-weight {
   font-weight: 100 !important;
 }
@@ -347,9 +308,7 @@ textarea {
 .font-weight-900 {
   font-weight: 900;
 }
-/*==================================================================
-3. Navigation / #top-nav, .page-border, .ext-nav, .menu-toggle, .sidebar
-==================================================================*/
+/*** Navigation / #top-nav, .page-border, .ext-nav, .menu-toggle, .sidebar ***/
 #top-nav {
   min-height: 0px;
   margin: 0 24px;
@@ -932,9 +891,7 @@ body {
 .navbar-brand img {
   display: inline;
 }
-/*==================================================================
-4. Gallery / .gallery, .grid, .gallery-overlay
-==================================================================*/
+/*** Gallery / .gallery, .grid, .gallery-overlay ***/
 .gallery {
   position: relative;
   -webkit-transition: all 0.5s;
@@ -989,9 +946,7 @@ body {
   text-transform: uppercase;
   font-weight: 600;
 }
-/*==================================================================
-5. Overlays / .page-overlay, .overlay-window
-==================================================================*/
+/*** Overlays / .page-overlay, .overlay-window ***/
 .page-overlay {
   position: fixed;
   top: 0;
@@ -1316,9 +1271,7 @@ body {
 .overlay-control {
   height: 90px;
 }
-/*==================================================================
-6. Sliders / .slider, .carousel
-==================================================================*/
+/*** Sliders / .slider, .carousel ***/
 .slider,
 .carousel {
   cursor: grab !important;
@@ -1430,9 +1383,7 @@ body {
 .slider .slick-dots button:before {
   font-size: 14px;
 }
-/*==================================================================
-7. Counters / .counters
-==================================================================*/
+/*** Counters / .counters ***/
 .counters {
   margin-top: 40px;
   margin-bottom: 20px;
@@ -1450,9 +1401,7 @@ body {
   line-height: 78px;
   font-weight: 600;
 }
-/*==================================================================
-8. CSS Animations / .scroll-in-animation, .scroll-animation
-==================================================================*/
+/*** CSS Animations / .scroll-in-animation, .scroll-animation ***/
 .scroll-in-animation,
 .scroll-animation {
   -webkit-animation-duration: 1.2s;
@@ -1544,9 +1493,7 @@ body {
   -webkit-animation-name: zoomInSmall;
   animation-name: zoomInSmall;
 }
-/*==================================================================
-9. Dot Scroll / #dot-scroll
-==================================================================*/
+/*** Dot Scroll / #dot-scroll ***/
 #dot-scroll {
   list-style: none;
   position: fixed;
@@ -1618,9 +1565,7 @@ body {
     display: none;
   }
 }
-/*==================================================================
-10. Fluid Blocks / .fluid, .fluid-width, .fluid-height
-==================================================================*/
+/*** Fluid Blocks / .fluid, .fluid-width, .fluid-height ***/
 .fluid {
   width: 100%;
   position: relative;
@@ -1640,9 +1585,7 @@ body {
   width: auto;
   height: 100%;
 }
-/*==================================================================
-11. Loading / .gate, .loader
-==================================================================*/
+/*** Loading / .gate, .loader ***/
 .gate {
   width: 100%;
   height: 100%;
@@ -1868,9 +1811,7 @@ body {
   animation: none;
   -webkit-animation: none;
 }
-/*==================================================================
-12. Google Map / .map-open, .map-canvas, .map-view
-==================================================================*/
+/*** Google Map / .map-open, .map-canvas, .map-view ***/
 .map-open {
   font-size: 13px;
 }
@@ -1880,9 +1821,7 @@ body {
 .map-view {
   padding: 0 25px 25px 25px;
 }
-/*==================================================================
-13. Animated Text / .show-list, .textillate
-==================================================================*/
+/*** Animated Text / .show-list, .textillate ***/
 .show-list {
   position: relative;
   pointer-events: none;
@@ -2421,9 +2360,7 @@ body {
 .textillate .texts {
   display: none;
 }
-/*==================================================================
-14. Icons / .icon-set, .circle, .circle-flat
-==================================================================*/
+/*** Icons / .icon-set, .circle, .circle-flat ***/
 .icon-set {
   margin-top: 40px;
 }
@@ -2576,9 +2513,7 @@ body {
   text-decoration: none;
   outline: none;
 }
-/*==================================================================
-15. Skill Bars / .skillbars
-==================================================================*/
+/*** Skill Bars / .skillbars ***/
 .skillbars .skillbar {
   position: relative;
   display: block;
@@ -2641,9 +2576,7 @@ body {
   line-height: 22px;
   font-weight: 700;
 }
-/*==================================================================
-16. Video Backgrounds / .youtube-bg, .vimeo-bg, .video-bg
-==================================================================*/
+/*** Video Backgrounds / .youtube-bg, .vimeo-bg, .video-bg ***/
 body > iframe.youtube-bg,
 body > iframe.vimeo-bg,
 body > video.video-bg {
@@ -2655,9 +2588,7 @@ html.mobile .youtube-bg,
 html.mobile .vimeo-bg {
   display: none;
 }
-/*==================================================================
-17. Our Process / .process
-==================================================================*/
+/*** Our Process / .process ***/
 .process {
   position: relative;
   line-height: 36px;
@@ -2721,15 +2652,11 @@ html.mobile .vimeo-bg {
 .process .process-row .process-step .process-box i:before {
   font-size: 36px;
 }
-/*==================================================================
-18. Box Blocks / .box
-==================================================================*/
+/*** Box Blocks / .box ***/
 .box {
   padding: 20px !important;
 }
-/*==================================================================
-19. Hover Effect / .hover-effect
-==================================================================*/
+/*** Hover Effect / .hover-effect ***/
 .hover-effect {
   position: relative;
 }
@@ -2960,9 +2887,7 @@ html.mobile .vimeo-bg {
     font-size: 10px;
   }
 }
-/*==================================================================
-20. Decorations / .button, .line, .half-height, .full-height, .uppercase, .border, ...
-==================================================================*/
+/*** Decorations / .button, .line, .half-height, .full-height, .uppercase, .border, ...  ***/
 .button,
 .list-group-item,
 .icon-bar {
@@ -3462,9 +3387,7 @@ ul.simple li:before {
 .control-group.danger {
   background-color: transparent;
 }
-/*==================================================================
-21. Layout / section, .view, .bg, .content
-==================================================================*/
+/*** Layout / section, .view, .bg, .content ***/
 .view {
   overflow: hidden;
   width: 100%;
@@ -3675,9 +3598,7 @@ body > .paper {
 .pattern-light-3:before {
   background: url('../images/pattern-light-3.png');
 }
-/*==================================================================
-22. Bootstrap Elements / .lead, .pagination, .panel, .widget-tabs
-==================================================================*/
+/*** Bootstrap Elements / .lead, .pagination, .panel, .widget-tabs ***/
 .lead {
   font-weight: 400;
 }
@@ -3730,9 +3651,7 @@ ul.pagination li {
   border-width: 0 0 1px 0;
   margin-bottom: 0;
 }
-/*==================================================================
-23. Blog / .#comments, .avatar, .comment-form, #post-author, .post
-==================================================================*/
+/*** Blog / .#comments, .avatar, .comment-form, #post-author, .post ***/
 #comments {
   border-top: 1px solid;
 }
@@ -3861,9 +3780,7 @@ ul.pagination li {
 .post .comment-form {
   padding-bottom: 25px;
 }
-/*==================================================================
-24. Help Pages / .help-toc, .help-toc-titles, .help-credits
-==================================================================*/
+/*** Help Pages / .help-toc, .help-toc-titles, .help-credits ***/
 .help-toc-titles {
   font-size: 11px;
   padding-top: 80px;
@@ -3917,9 +3834,7 @@ ul.pagination li {
   line-height: 34px;
   letter-spacing: 1px;
 }
-/*==================================================================
-25. Examples / .example-page, .example, pre
-==================================================================*/
+/*** Examples / .example-page, .example, pre ***/
 body.example-page {
   padding: 0;
 }
@@ -3968,17 +3883,13 @@ pre code .token.punctuation {
 pre code .token.attr-value {
   color: #919e6b;
 }
-/*==================================================================
-26. Hardware Optimizations / .force3d
-==================================================================*/
+/*** Hardware Optimizations / .force3d ***/
 .force3d .bg {
   transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
   -webkit-transform: translate3d(0, 0, 0);
 }
-/*==================================================================
-27. Letter Spacing
-==================================================================*/
+/*** Letter Spacing ***/
 #top-nav li {
   letter-spacing: 3px;
 }
@@ -4031,9 +3942,7 @@ p {
 .gallery .filter a {
   letter-spacing: 2px;
 }
-/*==================================================================
-28. Home Variants / .home-angie, .home-lynda, .home-lucy, .home-alice, .home-mary, .home-suzi
-==================================================================*/
+/*** Home Variants / .home-angie, .home-lynda, .home-lucy, .home-alice, .home-mary, .home-suzi ***/
 .home-angie .full-size {
   padding-top: 80px;
   padding-bottom: 75px;
@@ -4280,9 +4189,7 @@ p {
   font-weight: 500;
   margin-bottom: 20px;
 }
-/*==================================================================
-29. Customize Panel / #customize-panel
-==================================================================*/
+/*** Customize Panel / #customize-panel ***/
 #customize-panel {
   /*.options{
 		.colors{
@@ -4457,9 +4364,7 @@ p {
 .factory-flag {
   display: none;
 }
-/*==================================================================
-30. Demo Selection / .select-demo
-==================================================================*/
+/*** Demo Selection / .select-demo ***/
 body.select-demo {
   padding: 0px;
 }
@@ -4507,9 +4412,7 @@ body.select-demo .view > .content .caption {
   margin-bottom: 50px;
   font-weight: 700;
 }
-/*==================================================================
-31. Colors
-==================================================================*/
+/*** Colors ***/
 #top-nav a:hover {
   background-color: transparent;
 }
@@ -4722,4 +4625,3 @@ html {
 .background-100-dark {
   background-color: #000 !important;
 }
-
