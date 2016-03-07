@@ -45,7 +45,7 @@
 		overflow: auto;
 		position: absolute;
 		top: 60px;
-		bottom: 60px;
+		bottom: 25px;
 		left: 0;
 		width: 100%;
 		padding-top: 10px;
@@ -54,6 +54,12 @@
 			text-transform: uppercase;
 			font-weight: @fw-600;
 		}
+	}
+}
+
+@media screen and (min-height: 700px) {
+	.overlay-window .content-container {
+		bottom: 60px;
 	}
 }
 .overlay-zoom{
