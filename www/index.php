@@ -115,8 +115,8 @@ if ($action == 'portfolio-gallery' && $alias) {// оверлей с фотога
 
 		<ul id="dot-scroll" class="colors-e background-solid"></ul>
 		
-		<div class="overlay-window gallery-overlay colors-f background-95-f" data-overlay-zoom="#work .content">
-			<div class="overlay-control background-85-d">
+		<div class="overlay-window gallery-overlay colors-e background-90-light" data-overlay-zoom="#work .content">
+			<div class="overlay-control colors-f background-85-d">
 				<a class="previos" href="#"></a>
 				<a class="next" href="#"></a>
 				<a class="cross" href="#"></a>

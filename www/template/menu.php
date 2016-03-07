@@ -35,22 +35,22 @@ $menu_items = json_decode('[
 $portfolio_items = json_decode('[
 	{
 		"title":   "Fashion",
-		"preview": "/images/portfolio/500x400-fashion.jpg",
+		"preview": "/images/portfolio/500x400-fashion_2.jpg",
 		"url":     "#!index.php?action=portfolio-gallery&alias=gallery-fashion"
 	 },
 	{
 		"title":   "Portrait",
-		"preview": "/images/portfolio/500x400-portrait.jpg",
+		"preview": "/images/portfolio/500x400-portrait_2.jpg",
 		"url":     "#!index.php?action=portfolio-gallery&alias=gallery-portrait"
 	 },
 	{
 		"title":   "Shadow",
-		"preview": "/images/portfolio/500x400-shadow.jpg",
+		"preview": "/images/portfolio/500x400-shadow_2.jpg",
 		"url":     "#!index.php?action=portfolio-gallery&alias=gallery-shadow"
 	 },
 	{
 		"title":   "Street",
-		"preview": "/images/portfolio/500x400-street.jpg",
+		"preview": "/images/portfolio/500x400-street_2.jpg",
 		"url":     "#!index.php?action=portfolio-gallery&alias=gallery-street"
 	 }
 ]',true);
