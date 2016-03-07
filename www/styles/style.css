@@ -1059,7 +1059,7 @@ body {
   -ms-transition: all .3s;
   -o-transition: all .3s;
   transition: all .3s;
-  margin: 25px;
+  margin: 10px 25px;
 }
 .android-browser-4_3minus .cross {
   transition: none;
@@ -1134,7 +1134,7 @@ body {
   -ms-transition: all .3s;
   -o-transition: all .3s;
   transition: all .3s;
-  margin: 25px;
+  margin: 10px 25px;
 }
 .android-browser-4_3minus .next {
   transition: none;
@@ -1209,7 +1209,7 @@ body {
   -ms-transition: all .3s;
   -o-transition: all .3s;
   transition: all .3s;
-  margin: 25px;
+  margin: 10px 25px;
 }
 .android-browser-4_3minus .previos {
   transition: none;
@@ -1269,7 +1269,7 @@ body {
   -o-transform: rotate(45deg);
 }
 .overlay-control {
-  height: 90px;
+  height: 60px;
 }
 /*** Sliders / .slider, .carousel ***/
 .slider,
