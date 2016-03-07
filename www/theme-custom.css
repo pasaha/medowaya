@@ -2286,10 +2286,10 @@ footer.colors-c.border-top {
 /*** Colors D / .colors-d, .heading-d, .highlight-d, ... ***/
 .colors-d {
   color: #efefef;
-  background-color: rgba(179, 119, 82, 0.1);
+  background-color: rgba(70, 96, 124, 0.1);
 }
 .colors-d .bg-color {
-  color: #b37752;
+  color: #46607c;
 }
 .colors-d .out {
   opacity: 0.1;
@@ -2300,27 +2300,27 @@ footer.colors-c.border-top {
 }
 .colors-d .link,
 .colors-d.link {
-  color: #ffe0cc;
+  color: #ffffff;
 }
 .colors-d .highlight,
 .colors-d.highlight {
-  color: #ffe0cc;
+  color: #ffffff;
 }
 .colors-d .background,
 .colors-d.background {
-  background-color: rgba(179, 119, 82, 0.1);
+  background-color: rgba(70, 96, 124, 0.1);
 }
 .colors-d .background-solid,
 .colors-d.background-solid {
-  background-color: #b37752;
+  background-color: #46607c;
 }
 .colors-d .background-hard,
 .colors-d.background-hard {
-  background-color: rgba(179, 119, 82, 0.7);
+  background-color: rgba(70, 96, 124, 0.7);
 }
 .colors-d .background-lite,
 .colors-d.background-lite {
-  background-color: rgba(179, 119, 82, 0.05708155);
+  background-color: rgba(70, 96, 124, 0.05708155);
 }
 .colors-d h1,
 .colors-d h2,
@@ -2337,30 +2337,30 @@ footer.colors-c.border-top {
 }
 .colors-d a,
 a.colors-d {
-  color: #ffe0cc;
+  color: #ffffff;
 }
 .colors-d a:hover,
 a.colors-d:hover {
-  color: rgba(255, 224, 204, 0.75);
+  color: rgba(255, 255, 255, 0.75);
 }
 .colors-d .line {
   border-color: #efefef;
   border-color: rgba(239, 239, 239, 0.3);
 }
 .colors-d .line:hover {
-  background-color: rgba(179, 119, 82, 0.05708155);
+  background-color: rgba(70, 96, 124, 0.05708155);
 }
 .colors-d .help-block li {
-  color: #ffe0cc;
+  color: #ffffff;
 }
 .colors-d .grid-example > .row > div:nth-child(1n) {
   color: #ffffff;
-  background-color: rgba(179, 119, 82, 0.1);
+  background-color: rgba(70, 96, 124, 0.1);
   background-color: rgba(239, 239, 239, 0.1);
 }
 .colors-d .grid-example > .row > div:nth-child(2n) {
   color: #ffffff;
-  background-color: rgba(179, 119, 82, 0.1);
+  background-color: rgba(70, 96, 124, 0.1);
   background-color: rgba(239, 239, 239, 0.3);
 }
 .colors-d ::-webkit-input-placeholder {
@@ -2402,11 +2402,11 @@ a.colors-d:hover {
 }
 .colors-d .text-background,
 .colors-d.text-background {
-  color: #b37752 !important;
+  color: #46607c !important;
 }
 .colors-d .background-highlight,
 .colors-d.background-highlight {
-  background-color: #ffe0cc !important;
+  background-color: #ffffff !important;
 }
 .colors-d .background-heading,
 .colors-d.background-heading {
@@ -2418,7 +2418,7 @@ a.colors-d:hover {
 }
 .colors-d .background-link,
 .colors-d.background-link {
-  background-color: #ffe0cc !important;
+  background-color: #ffffff !important;
 }
 .colors-d .border-text,
 .colors-d.border-text {
@@ -2426,7 +2426,7 @@ a.colors-d:hover {
 }
 .colors-d .border-highlight,
 .colors-d.border-highlight {
-  border-color: rgba(255, 224, 204, 0.7) !important;
+  border-color: rgba(255, 255, 255, 0.7) !important;
 }
 .colors-d .border-heading,
 .colors-d.border-heading {
@@ -2434,7 +2434,7 @@ a.colors-d:hover {
 }
 .colors-d .border-link,
 .colors-d.border-link {
-  border-color: rgba(255, 224, 204, 0.7) !important;
+  border-color: rgba(255, 255, 255, 0.7) !important;
 }
 .colors-d .background-0,
 .colors-d.background-0 {
@@ -2442,83 +2442,83 @@ a.colors-d:hover {
 }
 .colors-d .background-5,
 .colors-d.background-5 {
-  background-color: rgba(179, 119, 82, 0.05) !important;
+  background-color: rgba(70, 96, 124, 0.05) !important;
 }
 .colors-d .background-10,
 .colors-d.background-10 {
-  background-color: rgba(179, 119, 82, 0.1) !important;
+  background-color: rgba(70, 96, 124, 0.1) !important;
 }
 .colors-d .background-15,
 .colors-d.background-15 {
-  background-color: rgba(179, 119, 82, 0.15) !important;
+  background-color: rgba(70, 96, 124, 0.15) !important;
 }
 .colors-d .background-20,
 .colors-d.background-20 {
-  background-color: rgba(179, 119, 82, 0.2) !important;
+  background-color: rgba(70, 96, 124, 0.2) !important;
 }
 .colors-d .background-25,
 .colors-d.background-25 {
-  background-color: rgba(179, 119, 82, 0.25) !important;
+  background-color: rgba(70, 96, 124, 0.25) !important;
 }
 .colors-d .background-30,
 .colors-d.background-30 {
-  background-color: rgba(179, 119, 82, 0.3) !important;
+  background-color: rgba(70, 96, 124, 0.3) !important;
 }
 .colors-d .background-35,
 .colors-d.background-35 {
-  background-color: rgba(179, 119, 82, 0.35) !important;
+  background-color: rgba(70, 96, 124, 0.35) !important;
 }
 .colors-d .background-40,
 .colors-d.background-40 {
-  background-color: rgba(179, 119, 82, 0.4) !important;
+  background-color: rgba(70, 96, 124, 0.4) !important;
 }
 .colors-d .background-45,
 .colors-d.background-45 {
-  background-color: rgba(179, 119, 82, 0.45) !important;
+  background-color: rgba(70, 96, 124, 0.45) !important;
 }
 .colors-d .background-50,
 .colors-d.background-50 {
-  background-color: rgba(179, 119, 82, 0.5) !important;
+  background-color: rgba(70, 96, 124, 0.5) !important;
 }
 .colors-d .background-55,
 .colors-d.background-55 {
-  background-color: rgba(179, 119, 82, 0.55) !important;
+  background-color: rgba(70, 96, 124, 0.55) !important;
 }
 .colors-d .background-60,
 .colors-d.background-60 {
-  background-color: rgba(179, 119, 82, 0.6) !important;
+  background-color: rgba(70, 96, 124, 0.6) !important;
 }
 .colors-d .background-65,
 .colors-d.background-65 {
-  background-color: rgba(179, 119, 82, 0.65) !important;
+  background-color: rgba(70, 96, 124, 0.65) !important;
 }
 .colors-d .background-70,
 .colors-d.background-70 {
-  background-color: rgba(179, 119, 82, 0.7) !important;
+  background-color: rgba(70, 96, 124, 0.7) !important;
 }
 .colors-d .background-75,
 .colors-d.background-75 {
-  background-color: rgba(179, 119, 82, 0.75) !important;
+  background-color: rgba(70, 96, 124, 0.75) !important;
 }
 .colors-d .background-80,
 .colors-d.background-80 {
-  background-color: rgba(179, 119, 82, 0.8) !important;
+  background-color: rgba(70, 96, 124, 0.8) !important;
 }
 .colors-d .background-85,
 .colors-d.background-85 {
-  background-color: rgba(179, 119, 82, 0.85) !important;
+  background-color: rgba(70, 96, 124, 0.85) !important;
 }
 .colors-d .background-90,
 .colors-d.background-90 {
-  background-color: rgba(179, 119, 82, 0.9) !important;
+  background-color: rgba(70, 96, 124, 0.9) !important;
 }
 .colors-d .background-95,
 .colors-d.background-95 {
-  background-color: rgba(179, 119, 82, 0.95) !important;
+  background-color: rgba(70, 96, 124, 0.95) !important;
 }
 .colors-d .background-100,
 .colors-d.background-100 {
-  background-color: #b37752 !important;
+  background-color: #46607c !important;
 }
 .colors-d h2::after {
   background-color: rgba(255, 255, 255, 0.4);
@@ -2530,7 +2530,7 @@ a.colors-d:hover {
   color: rgba(255, 255, 255, 0.75);
 }
 .colors-d h3 {
-  border-color: rgba(255, 224, 204, 0.5);
+  border-color: rgba(255, 255, 255, 0.5);
 }
 .colors-d input,
 .colors-d textarea {
@@ -2543,7 +2543,7 @@ a.colors-d:hover {
   outline-color: rgba(239, 239, 239, 0.37);
 }
 #top-nav.colors-d {
-  border-color: rgba(255, 224, 204, 0.16);
+  border-color: rgba(255, 255, 255, 0.16);
   color: #ffffff;
 }
 #top-nav.colors-d li a {
@@ -2559,22 +2559,22 @@ a.colors-d:hover {
   color: #ffffff;
 }
 #top-nav.colors-d .nav > li ul {
-  background-color: rgba(179, 119, 82, 0.1);
+  background-color: rgba(70, 96, 124, 0.1);
 }
 #top-nav.colors-d .nav > li ul a {
   color: #ffffff;
 }
 #top-nav.colors-d .nav > li ul a.active {
-  color: #ffe0cc;
+  color: #ffffff;
 }
 #top-nav.colors-d .nav > li ul a:hover {
   background-color: transparent;
 }
 #top-nav.colors-d li.open > a {
-  background-color: rgba(179, 119, 82, 0.05708155);
+  background-color: rgba(70, 96, 124, 0.05708155);
 }
 #top-nav.colors-d .navbar-nav a.active {
-  color: #ffe0cc;
+  color: #ffffff;
 }
 #top-nav.colors-d .navbar-toggle {
   background-color: transparent !important;
@@ -2584,7 +2584,7 @@ a.colors-d:hover {
   background-color: #ffffff;
 }
 .colors-d.page-border {
-  border-color: rgba(255, 224, 204, 0.16);
+  border-color: rgba(255, 255, 255, 0.16);
 }
 .colors-d.page-border a {
   color: #ffffff;
@@ -2593,13 +2593,13 @@ a.colors-d:hover {
   color: #ffffff;
 }
 .ext-nav a.colors-d .side-label {
-  color: #ffe0cc;
+  color: #ffffff;
 }
 .ext-nav a.colors-d:hover .side-title {
   color: #ffffff;
 }
 .ext-nav a.colors-d:hover .side-label {
-  color: #ffe0cc;
+  color: #ffffff;
 }
 .colors-d .menu-toggle span,
 .colors-d .menu-toggle span:before,
@@ -2609,7 +2609,7 @@ a.colors-d:hover {
 .colors-d .menu-toggle.navbar-toggle span,
 .colors-d .menu-toggle.navbar-toggle span:before,
 .colors-d .menu-toggle.navbar-toggle span:after {
-  background-color: #ffe0cc;
+  background-color: #ffffff;
 }
 .colors-d .menu-toggle.show span {
   background-color: transparent;
@@ -2643,12 +2643,12 @@ a.colors-d:hover {
 }
 .colors-d .slider .slick-dots li.slick-active button:before,
 .colors-d .carousel .slick-dots li.slick-active button:before {
-  color: #ffe0cc;
+  color: #ffffff;
   color: rgba(239, 239, 239, 0.7);
   opacity: 1;
 }
 .colors-d .carousel .slick-slide {
-  background-color: rgba(179, 119, 82, 0.1);
+  background-color: rgba(70, 96, 124, 0.1);
 }
 .colors-d .carousel .slick-slide {
   -webkit-box-shadow: 0 0 8px #fff;
@@ -2660,7 +2660,7 @@ a.colors-d:hover {
   background-color: transparent;
 }
 .colors-d .gallery .filter .nav li a.active {
-  color: #ffe0cc;
+  color: #ffffff;
 }
 .colors-d.gallery-overlay .field {
   color: #ffffff;
@@ -2670,32 +2670,32 @@ a.colors-d:hover {
   background-color: #ffffff;
 }
 .colors-d.circle {
-  border-color: rgba(179, 119, 82, 0.1);
+  border-color: rgba(70, 96, 124, 0.1);
   color: #ffffff;
 }
 .colors-d.circle:after {
   background-color: transparent;
-  border-color: rgba(179, 119, 82, 0.1);
+  border-color: rgba(70, 96, 124, 0.1);
 }
 .colors-d.circle:hover {
   background-color: transparent;
-  color: rgba(179, 119, 82, 0.1);
+  color: rgba(70, 96, 124, 0.1);
 }
 .colors-d.circle:hover:after {
-  border-color: rgba(179, 119, 82, 0.1);
+  border-color: rgba(70, 96, 124, 0.1);
 }
 .colors-d .process .process-row .process-step .process-box {
   border-color: rgba(239, 239, 239, 0.7);
 }
 .colors-d .process .process-row .process-step .process-box:before {
-  background-color: #b37752;
+  background-color: #46607c;
 }
 #dot-scroll.colors-d li a span {
   background-color: #ffffff;
 }
 #dot-scroll.colors-d li a.active span,
 #dot-scroll.colors-d li a:hover.active span {
-  background-color: rgba(179, 119, 82, 0.1);
+  background-color: rgba(70, 96, 124, 0.1);
 }
 #dot-scroll.colors-d li a.target span,
 #dot-scroll.colors-d li a:hover.target span {
@@ -2709,21 +2709,21 @@ a.colors-d:hover {
 }
 .colors-d.skew.skew-bottom-left {
   border-bottom-color: transparent;
-  border-left-color: #b37752;
+  border-left-color: #46607c;
   background-color: transparent !important;
 }
 .colors-d.skew.skew-bottom-right {
-  border-bottom-color: #b37752;
+  border-bottom-color: #46607c;
   border-left-color: transparent;
   background-color: transparent !important;
 }
 .colors-d.skew.skew-top-right {
   border-top-color: transparent;
-  border-right-color: #b37752;
+  border-right-color: #46607c;
   background-color: transparent !important;
 }
 .colors-d.skew.skew-top-left {
-  border-top-color: #b37752;
+  border-top-color: #46607c;
   border-right-color: transparent;
   background-color: transparent !important;
 }
@@ -2759,7 +2759,7 @@ a.colors-d:hover {
   color: #ffffff;
 }
 .colors-d .post .post-meta a:hover {
-  color: #ffe0cc;
+  color: #ffffff;
 }
 .colors-d .post .post-meta .post-month {
   border-color: rgba(255, 255, 255, 0.08) !important;
@@ -2771,17 +2771,17 @@ a.colors-d:hover {
   color: rgba(239, 239, 239, 0.85);
 }
 .colors-d .post .post-month {
-  color: #ffe0cc;
+  color: #ffffff;
 }
 .colors-d .sidebar .title {
   color: #ffffff;
 }
 .colors-d .pagination .active a {
   background-color: rgba(255, 255, 255, 0.85);
-  color: #b37752;
+  color: #46607c;
 }
 .colors-d .pagination .active a:hover {
-  color: #b37752;
+  color: #46607c;
 }
 .colors-d .pagination a {
   background-color: transparent;
@@ -2789,7 +2789,7 @@ a.colors-d:hover {
   color: #ffffff;
 }
 .colors-d .pagination a:hover {
-  color: #ffe0cc;
+  color: #ffffff;
 }
 .colors-d .navbar-collapse {
   max-height: none;
@@ -2805,23 +2805,23 @@ a.colors-d:hover {
 .colors-d .title.highlight,
 .colors-d .header-details.highlight,
 .colors-d .subtitle.highlight {
-  color: #ffe0cc;
+  color: #ffffff;
 }
 .colors-d .slogan {
-  color: #ffe0cc;
+  color: #ffffff;
 }
 .colors-d .underline-dashed,
 .colors-d .underline-dotted {
-  border-color: rgba(255, 224, 204, 0.7);
+  border-color: rgba(255, 255, 255, 0.7);
 }
 .colors-d .underline {
-  border-color: rgba(255, 224, 204, 0.5);
+  border-color: rgba(255, 255, 255, 0.5);
 }
 .colors-d .underline-highlight {
-  border-color: rgba(255, 224, 204, 0.5);
+  border-color: rgba(255, 255, 255, 0.5);
 }
 .colors-d .underline-link {
-  border-color: rgba(255, 224, 204, 0.5);
+  border-color: rgba(255, 255, 255, 0.5);
 }
 .colors-d .underline-heading {
   border-color: rgba(255, 255, 255, 0.5);
@@ -2830,16 +2830,16 @@ a.colors-d:hover {
   border-color: rgba(239, 239, 239, 0.5);
 }
 .colors-d .top-line:before {
-  background-color: rgba(255, 224, 204, 0.7);
+  background-color: rgba(255, 255, 255, 0.7);
 }
 .colors-d .bottom-line:after {
-  background-color: #ffe0cc;
+  background-color: #ffffff;
 }
 .colors-d .short-underline:after {
-  background-color: #ffe0cc;
+  background-color: #ffffff;
 }
 .colors-d .stroke-highlight {
-  text-shadow: -1px -1px 0 #ffe0cc, 1px -1px 0 #ffe0cc, -1px 1px 0 #ffe0cc, 1px 1px 0 #ffe0cc;
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
 }
 .colors-d .stroke-heading {
   text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
@@ -2848,11 +2848,11 @@ a.colors-d:hover {
   text-shadow: -1px -1px 0 #efefef, 1px -1px 0 #efefef, -1px 1px 0 #efefef, 1px 1px 0 #efefef;
 }
 .colors-d .stroke-background {
-  text-shadow: -1px -1px 0 rgba(179, 119, 82, 0.1), 1px -1px 0 rgba(179, 119, 82, 0.1), -1px 1px 0 rgba(179, 119, 82, 0.1), 1px 1px 0 rgba(179, 119, 82, 0.1);
+  text-shadow: -1px -1px 0 rgba(70, 96, 124, 0.1), 1px -1px 0 rgba(70, 96, 124, 0.1), -1px 1px 0 rgba(70, 96, 124, 0.1), 1px 1px 0 rgba(70, 96, 124, 0.1);
 }
 .colors-d .label-border {
-  border-color: rgba(255, 224, 204, 0.7);
-  outline-color: #ffe0cc;
+  border-color: rgba(255, 255, 255, 0.7);
+  outline-color: #ffffff;
 }
 .colors-d .bottom-menu {
   color: #efefef !important;
@@ -2863,10 +2863,10 @@ a.colors-d:hover {
 }
 .colors-d .bottom-menu a:hover {
   background-color: transparent;
-  color: #ffe0cc;
+  color: #ffffff;
 }
 .colors-d .bottom-menu a:hover i {
-  color: #ffe0cc;
+  color: #ffffff;
 }
 footer.colors-d a i:hover {
   color: #efefef !important;
@@ -2881,16 +2881,16 @@ footer.colors-d a i:hover {
 .colors-d.content.border-top,
 footer.colors-d.border-bottom,
 footer.colors-d.border-top {
-  border-color: rgba(255, 224, 204, 0.8);
+  border-color: rgba(255, 255, 255, 0.8);
 }
 .colors-d.credits-overlay .content-container > ul > li {
-  color: #ffe0cc;
+  color: #ffffff;
 }
 .colors-d.credits-overlay .content-container > ul > li li {
-  color: #ffe0cc;
+  color: #ffffff;
 }
 .colors-d input.button {
-  color: #ffe0cc;
+  color: #ffffff;
 }
 .colors-d input.button:hover {
   color: #ffffff;
@@ -2914,94 +2914,94 @@ footer.colors-d.border-top {
   background-color: transparent !important;
 }
 .background-5-d {
-  background-color: rgba(179, 119, 82, 0.05) !important;
+  background-color: rgba(70, 96, 124, 0.05) !important;
 }
 .background-10-d {
-  background-color: rgba(179, 119, 82, 0.1) !important;
+  background-color: rgba(70, 96, 124, 0.1) !important;
 }
 .background-15-d {
-  background-color: rgba(179, 119, 82, 0.15) !important;
+  background-color: rgba(70, 96, 124, 0.15) !important;
 }
 .background-20-d {
-  background-color: rgba(179, 119, 82, 0.2) !important;
+  background-color: rgba(70, 96, 124, 0.2) !important;
 }
 .background-25-d {
-  background-color: rgba(179, 119, 82, 0.25) !important;
+  background-color: rgba(70, 96, 124, 0.25) !important;
 }
 .background-30-d {
-  background-color: rgba(179, 119, 82, 0.3) !important;
+  background-color: rgba(70, 96, 124, 0.3) !important;
 }
 .background-35-d {
-  background-color: rgba(179, 119, 82, 0.35) !important;
+  background-color: rgba(70, 96, 124, 0.35) !important;
 }
 .background-40-d {
-  background-color: rgba(179, 119, 82, 0.4) !important;
+  background-color: rgba(70, 96, 124, 0.4) !important;
 }
 .background-45-d {
-  background-color: rgba(179, 119, 82, 0.45) !important;
+  background-color: rgba(70, 96, 124, 0.45) !important;
 }
 .background-50-d {
-  background-color: rgba(179, 119, 82, 0.5) !important;
+  background-color: rgba(70, 96, 124, 0.5) !important;
 }
 .background-55-d {
-  background-color: rgba(179, 119, 82, 0.55) !important;
+  background-color: rgba(70, 96, 124, 0.55) !important;
 }
 .background-60-d {
-  background-color: rgba(179, 119, 82, 0.6) !important;
+  background-color: rgba(70, 96, 124, 0.6) !important;
 }
 .background-65-d {
-  background-color: rgba(179, 119, 82, 0.65) !important;
+  background-color: rgba(70, 96, 124, 0.65) !important;
 }
 .background-70-d {
-  background-color: rgba(179, 119, 82, 0.7) !important;
+  background-color: rgba(70, 96, 124, 0.7) !important;
 }
 .background-75-d {
-  background-color: rgba(179, 119, 82, 0.75) !important;
+  background-color: rgba(70, 96, 124, 0.75) !important;
 }
 .background-80-d {
-  background-color: rgba(179, 119, 82, 0.8) !important;
+  background-color: rgba(70, 96, 124, 0.8) !important;
 }
 .background-85-d {
-  background-color: rgba(179, 119, 82, 0.85) !important;
+  background-color: rgba(70, 96, 124, 0.85) !important;
 }
 .background-90-d {
-  background-color: rgba(179, 119, 82, 0.9) !important;
+  background-color: rgba(70, 96, 124, 0.9) !important;
 }
 .background-95-d {
-  background-color: rgba(179, 119, 82, 0.95) !important;
+  background-color: rgba(70, 96, 124, 0.95) !important;
 }
 .background-100-d {
-  background-color: #b37752 !important;
+  background-color: #46607c !important;
 }
 .background-d {
-  background-color: rgba(179, 119, 82, 0.1) !important;
+  background-color: rgba(70, 96, 124, 0.1) !important;
 }
 .background-lite-d {
-  background-color: rgba(179, 119, 82, 0.05708155) !important;
+  background-color: rgba(70, 96, 124, 0.05708155) !important;
 }
 .background-lite-lite-d {
-  background-color: rgba(179, 119, 82, 0.02857143) !important;
+  background-color: rgba(70, 96, 124, 0.02857143) !important;
 }
 .background-hard-d {
-  background-color: rgba(179, 119, 82, 0.7) !important;
+  background-color: rgba(70, 96, 124, 0.7) !important;
 }
 .background-hard-hard-d {
-  background-color: rgba(179, 119, 82, 0.82) !important;
+  background-color: rgba(70, 96, 124, 0.82) !important;
 }
 .border-background-d {
-  border-color: rgba(179, 119, 82, 0.7) !important;
+  border-color: rgba(70, 96, 124, 0.7) !important;
 }
 .border-text-d {
   border-color: rgba(239, 239, 239, 0.7) !important;
 }
 .border-highlight-d {
-  border-color: rgba(255, 224, 204, 0.7) !important;
+  border-color: rgba(255, 255, 255, 0.7) !important;
 }
 .border-heading-d {
   border-color: rgba(255, 255, 255, 0.7) !important;
 }
 .border-link-d {
-  border-color: rgba(255, 224, 204, 0.7) !important;
+  border-color: rgba(255, 255, 255, 0.7) !important;
 }
 .heading-d {
   color: #ffffff !important;
@@ -3010,10 +3010,10 @@ footer.colors-d.border-top {
   color: #efefef !important;
 }
 .text-background-d {
-  color: #b37752 !important;
+  color: #46607c !important;
 }
 .background-highlight-d {
-  background-color: #ffe0cc !important;
+  background-color: #ffffff !important;
 }
 .background-heading-d {
   background-color: #ffffff !important;
@@ -3022,13 +3022,13 @@ footer.colors-d.border-top {
   background-color: #efefef !important;
 }
 .background-link-d {
-  background-color: #ffe0cc !important;
+  background-color: #ffffff !important;
 }
 .highlight-d {
-  color: #ffe0cc !important;
+  color: #ffffff !important;
 }
 .link-d {
-  color: #ffe0cc !important;
+  color: #ffffff !important;
 }
 /*** Colors E / .colors-e, heading-e, .highlight-e, ... ***/
 .colors-e {
@@ -6068,13 +6068,13 @@ textarea,
 .ext-nav,
 .overlay-window .content-container {
   -ms-overflow-style: scrollbar;
-  scrollbar-face-color: #b37752;
+  scrollbar-face-color: #46607c;
   scrollbar-track-color: #ffffff;
   scrollbar-arrow-color: #afafaf;
-  scrollbar-highlight-color: #b37752;
-  scrollbar-3dlight-color: #b37752;
-  scrollbar-shadow-color: #b37752;
-  scrollbar-darkshadow-color: #b37752;
+  scrollbar-highlight-color: #46607c;
+  scrollbar-3dlight-color: #46607c;
+  scrollbar-shadow-color: #46607c;
+  scrollbar-darkshadow-color: #46607c;
 }
 textarea::-webkit-scrollbar-track,
 .navbar-collapse::-webkit-scrollbar-track,
@@ -6223,13 +6223,13 @@ pre::-webkit-scrollbar-thumb,
   border: 1px solid;
 }
 .ie-scroll-a {
-  scrollbar-face-color: #b37752;
+  scrollbar-face-color: #46607c;
   scrollbar-track-color: #ffffff;
   scrollbar-arrow-color: #afafaf;
-  scrollbar-highlight-color: #b37752;
-  scrollbar-3dlight-color: #b37752;
-  scrollbar-shadow-color: #b37752;
-  scrollbar-darkshadow-color: #b37752;
+  scrollbar-highlight-color: #46607c;
+  scrollbar-3dlight-color: #46607c;
+  scrollbar-shadow-color: #46607c;
+  scrollbar-darkshadow-color: #46607c;
 }
 .ie-scroll-b {
   scrollbar-face-color: #46607c;

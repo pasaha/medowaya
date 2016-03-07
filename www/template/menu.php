@@ -7,7 +7,7 @@ $menu_items = json_decode('[
 		"tpl":   "template/index/home.php"
 	 },
 	{
-		"title": "About Me",
+		"title": "About",
 		"id":  "about",
 		"tpl":   "template/index/about.php"
 	 },
@@ -15,6 +15,11 @@ $menu_items = json_decode('[
 		"title": "Works",
 		"id":  "work",
 		"tpl":   "template/index/work.php"
+	 },
+	{
+		"title": "Opinions",
+		"id":  "opinions",
+		"tpl":   "template/index/opinions.php"
 	 },
 	{
 		"title": "Contact",

@@ -4,11 +4,13 @@
 			<div class="col-md-6 stretch-height pane">
 				<div class="view fluid-height">
 					<img alt class="bg" src="/images/bg/810x900-about.jpg" />
-					<div class="content colors-d background-transparent">
+					<div class="content colors-d background-transparent full-size">
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6 colors-e background-solid  stretch-height">
+			<div class="col-md-1 colors-e background-solid  stretch-height">
+			</div>
+			<div class="col-md-4 colors-e background-solid  stretch-height">
 				<div class="view  fluid-height">
 					<div class="col-content content full-size">
 						<div class="">
@@ -32,6 +34,8 @@
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="col-md-1 colors-e background-solid  stretch-height">
 			</div>
 		</div>
 	</div>

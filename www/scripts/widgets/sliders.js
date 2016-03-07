@@ -11,7 +11,11 @@ module.exports = function($context, isRemoved){
 		var $this = $(this)
 		$this.slick({
 			autoplay: true,
-			dots: true
+			dots: true,
+			customPaging: function(slider, i) { 
+			// this example would render "tabs" with titles
+			return '<span class="slick-preview" style="background-image:url(' + $(slider.$slides[i]).find('img').attr('data-preview') + ')"></span>';
+		 }
 		});
 	});
 	$context.find(".carousel").each(function(){

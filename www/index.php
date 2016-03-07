@@ -227,7 +227,7 @@ if ($action == 'portfolio-gallery' && $alias) {// оверлей с фотога
 			}
 		})();
 		</script>
-		<script src="scripts/script-bundle.js"></script>
+		<script src="/scripts/script-bundle.js"></script>
 		<script>
 		if (Function('/*@cc_on return document.documentMode===9@*/')())
 		{

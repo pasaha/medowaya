@@ -1,35 +1,36 @@
 <div class="view">
-	<img alt class="bg" src="images/placeholders/1920x1200-2.jpg" /><img alt class="bg" src="images/placeholders/1920x1200-0.jpg" /><img alt class="bg" src="images/placeholders/1920x1200-1.jpg" />
+	<img alt class="bg" src="/images/bg/1920x1200-2.jpg" />
+	<img alt class="bg" src="/images/bg/1920x1200-0.jpg" />
+	<img alt class="bg" src="/images/bg/1920x1200-1.jpg" />
 	<div class="content full-size colors-h">
 		<div class="container">
-			<h2>Contact</h2>
-			<p class="header-details">Keep In Touch</p>
+			<h2>Contacts</h2>
+			<p class="header-details">Fashion, portrait and art photographer</p>
 			<div class="row">
 				<div class="col-md-6">
 					<div class="text-right scroll-in-animation" data-animation="fadeInLeft">
 						<p class="big-font uppercase">
-							Tel: <strong class="highlight">+787 (787) 503-1810</strong>
+							Tel: <strong class="highlight">+1 (631) 933-50-06</strong>
 						</p>
 						<p class="big-font uppercase">
-							500 Unicorn Street, 21st Floor
-							<br/> New York,  10505, United States
+							New York City, United States
 						</p>
 						<p class="big-font">
 							<b>
-						<a href="mailto:info@ouraddress.com">info@medowaya.com</a><br/>
-						<a href="http://www.ouraddress.com">www.medowaya.com</a>
-					</b>
+								<a href="mailto:info@medowaya.com">info@medowaya.com</a><br/>
+								<a href="http://www.medowaya.com">www.medowaya.com</a>
+							</b>
 						</p>
 						<p class="big-font">
-							<a target="_blank" href="https://twitter.com/"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x heading"></i><i class="fa fa-twitter fa-stack-1x text-background"></i></span></a>
-							<a target="_blank" href="https://www.facebook.com/"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x heading"></i><i class="fa fa-facebook fa-stack-1x text-background"></i></span></a>
-							<a target="_blank" href="http://www.youtube.com/"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x heading"></i><i class="fa fa-youtube fa-stack-1x text-background"></i></span></a>
+							<a href="https://www.instagram.com/honey_and_dreams/" target="_blank"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x heading"></i><i class="fa fa-instagram fa-stack-1x text-background"></i></span></a>
+							<a href="https://www.facebook.com/katmedowaya--" target="_blank"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x heading"></i><i class="fa fa-facebook fa-stack-1x text-background"></i></span></a>
+							<a href="https://vk.com/kmedowaya" target="_blank"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x heading"></i><i class="fa fa-vk fa-stack-1x text-background"></i></span></a>
 						</p>
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="text-left scroll-in-animation" data-animation="fadeInRight">
-						<form class="ajax-form" data-message-class="colors-d background-95 heading border" action="contact.php" method="post" novalidate="novalidate">
+						<form class="ajax-form" data-message-class="colors-d background-95 heading border" action="/send-contact.php" method="post" novalidate="novalidate">
 							<div class="row">
 								<div class="col-md-6 control-group">
 									<div class="alt-placeholder">Write Your Name</div>

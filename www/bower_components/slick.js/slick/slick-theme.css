@@ -199,3 +199,34 @@
     opacity: .75;
     color: black;
 }
+
+.overlay-view .slider .slick-dots {
+	position: fixed;
+	bottom: 0 !important;
+	top: auto !important;
+	background: rgba(70, 96, 124, 0.85) !important;
+	left: -10px;
+	padding-left: 10px;
+	margin-bottom: 0;
+}
+.overlay-view .slick-prev,
+.overlay-view .slick-next {
+position: fixed;
+width: 40px !important;
+height: 80px !important;
+}
+.slick-dots li {
+	width: auto;
+	height: auto;
+}
+
+.slick-preview {
+	width: 70px;
+	height: 50px;
+	background: #000 none no-repeat 0% 0%;
+	background-size: cover;
+	display: block;
+}
+.slick-active .slick-preview {
+	border-top: 3px solid #222 !important
+}
