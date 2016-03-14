@@ -1,5 +1,5 @@
 <div class="view">
-	<div class="content home-mary full-size colors-a">
+	<div class="content home-mary full-size colors-b">
 		<div class="container">
 			<div class="textillate text-center heading  hidden-xs hidden-sm" data-textillate-options="{loop:true, in:{effect:'flipInY', reverse:false}, out:{effect:'flipOutY', reverse:false}}">
 				<ul class="texts">

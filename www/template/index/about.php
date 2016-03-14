@@ -11,8 +11,8 @@
 			<div class="col-md-1 colors-e background-solid  stretch-height">
 			</div>
 			<div class="col-md-4 colors-e background-solid  stretch-height">
-				<div class="view  fluid-height">
-					<div class="col-content content full-size">
+				<div class="view fluid-height">
+					<div class="col-content background-solid content half-size">
 						<div class="">
 							<h3 class="text-left"><span class="highlight">Katerina</span> Medowaya</h3>
 							<p class="subtitle">

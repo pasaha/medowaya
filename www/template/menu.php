@@ -12,14 +12,14 @@ $menu_items = json_decode('[
 		"tpl":   "template/index/about.php"
 	 },
 	{
-		"title": "Works",
-		"id":  "work",
-		"tpl":   "template/index/work.php"
-	 },
-	{
 		"title": "Opinions",
 		"id":  "opinions",
 		"tpl":   "template/index/opinions.php"
+	 },
+	{
+		"title": "Works",
+		"id":  "work",
+		"tpl":   "template/index/work.php"
 	 },
 	{
 		"title": "Contact",

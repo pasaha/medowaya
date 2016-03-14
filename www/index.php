@@ -117,8 +117,8 @@ if ($action == 'portfolio-gallery' && $alias) {// оверлей с фотога
 		
 		<div class="overlay-window gallery-overlay colors-e background-90-light" data-overlay-zoom="#work .content">
 			<div class="overlay-control colors-f background-85-d">
-				<a class="previos" href="#"></a>
-				<a class="next" href="#"></a>
+				<a title="Previos gallery" class="previos" href="#"></a>
+				<a title="Next gallery" class="next" href="#"></a>
 				<a class="cross" href="#"></a>
 			</div>
 			<div class="overlay-view"></div>

@@ -15,11 +15,17 @@ include 'template/portfolio/data/' . $alias . '.php';
 				<div class="view">
 					<div class="item-content">
 						<div class="">
-							<h3><?php echo $gallery_data['title'] ?> <span class="highlight">Gallery</span></h3>
+							<h3 class="slider-header"><?php echo $gallery_data['title'] ?> <span class="highlight">Gallery</span></h3>
 
 									<div class="slider">
 										<?php foreach ($gallery_data['items'] AS $index => $item): ?>
-											<div><img data-preview="<?php echo $item['preview'] ? $item['preview'] : $item['image']; ?>" style="margin: 0 auto;max-width:100%;max-height:900px;width: auto;" alt="Slide <?php echo $index + 1; ?>" src="<?php echo $item['image']; ?>" /></div>
+											<div>
+												<img
+													alt="Slide <?php echo $index + 1; ?>" src="<?php echo $item['image']; ?>"
+													data-preview="<?php echo $item['preview'] ? $item['preview'] : $item['image']; ?>"
+													style="margin: 0 auto; max-width:100%; max-height:800px; width: auto;"
+												 />
+											</div>
 										<?php endforeach; ?>
 									</div>
 

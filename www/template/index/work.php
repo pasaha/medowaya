@@ -3,7 +3,7 @@
 	<img alt class="bg" src="images/bg/1920x1200-2.jpg" />
 	<img alt class="bg" src="images/bg/1920x1200-0.jpg" />        
 	<div class="content full-size no-bottom-padding colors-e">
-		<h2><span class="highlight">Works</span></h2>
+		<h2>Works</h2>
 		<br /> <br />
 		<div class="gallery background-e" data-default-group="all" data-overlay=".gallery-overlay">
 			<div class="container-fluid">
