@@ -364,6 +364,8 @@ textarea {
   font-weight: 800;
   font-size: 20px;
   height: auto;
+  float: none;
+  display: block;
 }
 @media (max-width: 1199px) {
   #top-nav .navbar-brand {
@@ -1029,7 +1031,7 @@ body {
   bottom: 25px;
   left: 0;
   width: 100%;
-  padding-top: 10px;
+  padding-top: 0px;
   padding-bottom: 10px;
 }
 .overlay-window .content-container .field {
