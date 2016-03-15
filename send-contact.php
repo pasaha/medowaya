@@ -26,12 +26,12 @@
 
 require_once "Mail.php";
 // Change this options:
-$username = 'user@gmail.com';
-$password = 'password';
-$smtpHost = 'ssl://smtp.gmail.com';
+$username = 'katerina@medowaya.com';
+$password = 'asdRTY546';
+$smtpHost = 'ssl://smtp.yandex.ru';
 $smtpPort = '465';
-$to = 'info@medowaya.com';
-$from = 'info@medowaya.com';
+$to = 'Katerina@medowaya.com';
+$from = 'Katerina@medowaya.com';
 
 $subject = 'Contact Form';
 $successMessage = 'Message successfully sent!';
