@@ -379,6 +379,11 @@ textarea {
 }
 @media (max-width: 767px) {
   #top-nav .navbar-brand {
+    font-size: 15px;
+  }
+}
+@media (max-width: 400px) {
+  #top-nav .navbar-brand {
     font-size: 13px;
   }
 }
@@ -396,6 +401,11 @@ textarea {
   }
 }
 @media (max-width: 767px) {
+  #top-nav .navbar-brand-sub {
+    font-size: 13px;
+  }
+}
+@media (max-width: 400px) {
   #top-nav .navbar-brand-sub {
     font-size: 11px;
   }
