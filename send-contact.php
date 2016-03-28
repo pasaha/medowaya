@@ -1,64 +1,35 @@
-<?php
-// PHP extensions Mail and Net_SMTP must be installed. If they are not already
-// installed, install them by PEAR:
-// > pear install Mail
-// > pear install Net_SMTP
-// SSL must be allowed. On Windows you should uncomment line in php.ini:
-//		extension=php_openssl.dll
-// If you use smtp.gmail.com as smpt host then use:
-//		https://accounts.google.com/DisplayUnlockCaptcha
-// and allow access for less secure apps:
-//		https://www.google.com/settings/security/lesssecureapps
-//		
-// =============================================================================
-// NOTES
-// contact.php – is a script for a web servers with php support.
-// Extensions which required for this script are often installed by default.
-// If they are not already installed, the easiest way to do this using PEAR.
-// Learn more about PEAR http://pear.php.net/.
-// Editing the php.ini required only on Windows. On other operating systems this
-// is usually not required. Location of this file depends on settings of web
-// server.
-// Also, your web server should not be denied access to external mail servers.
-// On the majority of paid and on many free hostings (eg OpenShift:
-// https://www.openshift.com/) all these features are available. 
-// =============================================================================
+<?
 
-require_once "Mail.php";
-// Change this options:
-$username = 'katerina@medowaya.com';
-$password = 'asdRTY546';
-$smtpHost = 'ssl://smtp.yandex.ru';
-$smtpPort = '465';
-$to = 'Katerina@medowaya.com';
-$from = 'Katerina@medowaya.com';
+// Адреса, на которые отправится письмо
+// ------------------------------------
 
-$subject = 'Contact Form';
-$successMessage = 'Message successfully sent!';
+$Site['from_email'] = "wildcharm@ya.ru";
 
-$replyTo = $_POST['your-email'];
-$name = $_POST['your-name'];
-$body = $_POST['your-message'];
 
-$headers = array(
-	'From' => $name . " <" . $from . ">",
-	'Reply-To' => $name . " <" . $replyTo . ">",
-	'To' => $to,
-	'Subject' => $subject
-);
-$smtp = Mail::factory('smtp', array(
-			'host' => $smtpHost,
-			'port' => $smtpPort,
-			'auth' => true,
-			'username' => $username,
-			'password' => $password
-		));
+$Site['to_email'] = "wildcharm@ya.ru, katerina@medowaya.com, pasaha@list.ru, pasaha83@gmail.com";
+$Site['utf-8'];
 
-$mail = $smtp->send($to, $headers, $body);
+// Тема письма
+// ------------
+$Site['subject'] = "Сообщение с сайта medowaya.com";
+$Site['mail_text'] = "Новое сообщение с сайта <a href='http://medowaya.com/'>medowaya.com</a>\r\n\n";
+$Site['spec_text']['no'] = "Недоступно";
+$Site['spec_text']['yes'] = "Доступно<br/>Заказ обратного звонка осуществлен в рамках спецпредложения.<br/> Данный пользователь имеет право получить подарок на выбор.";
 
-if (PEAR::isError($mail)) {
-	echo($mail->getMessage());
+include( 'mailer/send.php' );
+
+if (count($errors)) { ?>
+	<?php foreach ($errors as $key => $value){ ?>
+	<p class="error_message"><?php echo $value ?></p>
+	<?php
+	break;
+	}
 } else {
-	echo($successMessage);
+	echo('Сообщение отправлено');
 }
+
+function isEmail($email) { // Email address verification, do not edit.
+return(preg_match("/^[-_.[:alnum:]]+@((([[:alnum:]]|[[:alnum:]][[:alnum:]-]*[[:alnum:]])\.)+(ad|ae|aero|af|ag|ai|al|am|an|ao|aq|ar|arpa|as|at|au|aw|az|ba|bb|bd|be|bf|bg|bh|bi|biz|bj|bm|bn|bo|br|bs|bt|bv|bw|by|bz|ca|cc|cd|cf|cg|ch|ci|ck|cl|cm|cn|co|com|coop|cr|cs|cu|cv|cx|cy|cz|de|dj|dk|dm|do|dz|ec|edu|ee|eg|eh|er|es|et|eu|fi|fj|fk|fm|fo|fr|ga|gb|gd|ge|gf|gh|gi|gl|gm|gn|gov|gp|gq|gr|gs|gt|gu|gw|gy|hk|hm|hn|hr|ht|hu|id|ie|il|in|info|int|io|iq|ir|is|it|jm|jo|jp|ke|kg|kh|ki|km|kn|kp|kr|kw|ky|kz|la|lb|lc|li|lk|lr|ls|lt|lu|lv|ly|ma|mc|md|mg|mh|mil|mk|ml|mm|mn|mo|mp|mq|mr|ms|mt|mu|museum|mv|mw|mx|my|mz|na|name|nc|ne|net|nf|ng|ni|nl|no|np|nr|nt|nu|nz|om|org|pa|pe|pf|pg|ph|pk|pl|pm|pn|pr|pro|ps|pt|pw|py|qa|re|ro|ru|rw|sa|sb|sc|sd|se|sg|sh|si|sj|sk|sl|sm|sn|so|sr|st|su|sv|sy|sz|tc|td|tf|tg|th|tj|tk|tm|tn|to|tp|tr|tt|tv|tw|tz|ua|ug|uk|um|us|uy|uz|va|vc|ve|vg|vi|vn|vu|wf|ws|ye|yt|yu|za|zm|zw)$|(([0-9][0-9]?|[0-1][0-9][0-9]|[2][0-4][0-9]|[2][5][0-5])\.){3}([0-9][0-9]?|[0-1][0-9][0-9]|[2][0-4][0-9]|[2][5][0-5]))$/i",$email));
+}
+
 ?>
