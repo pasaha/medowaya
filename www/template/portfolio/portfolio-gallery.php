@@ -23,7 +23,6 @@ include 'template/portfolio/data/' . $alias . '.php';
 												<img
 													alt="Slide <?php echo $index + 1; ?>" src="<?php echo $item['image']; ?>"
 													data-preview="<?php echo $item['preview'] ? $item['preview'] : $item['image']; ?>"
-													style="margin: 0 auto; max-width:100%; max-height:800px; width: auto;"
 												 />
 											</div>
 										<?php endforeach; ?>
