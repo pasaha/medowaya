@@ -72,7 +72,7 @@
 }
 .slider{
 	margin-top: 0 !important;
-	margin-bottom: 38px !important;
+	margin-bottom: 0 !important;
 	.slick-dots{
 		padding-top: 5px;
 		bottom: auto;
@@ -80,5 +80,51 @@
 		button:before{
 			font-size: 14px;
 		}
+	}
+}
+
+
+.slider>div img {
+	margin: 0 auto;
+	max-width:100%;
+	max-height:800px;
+	width: auto;
+}
+
+
+
+@media screen and (max-height: 900px) {
+	.slider>div img {
+		 max-height:733px!important;
+	}
+}
+
+@media screen and (max-height: 800px) {
+	.slider>div img {
+		 max-height:667px!important;
+	}
+}
+
+@media screen and (max-height: 740px) {
+	.slider>div img {
+		 max-height:580px!important;
+	}
+}
+
+@media screen and (max-height: 667px) {
+	.slider>div img {
+		 max-height:569px!important;
+	}
+}
+
+@media screen and (max-height: 569px) {
+	.slider>div img {
+		 max-height:508px!important;
+	}
+}
+
+@media screen and (max-height: 481px) {
+	.slider>div img {
+		 max-height:420px!important;
 	}
 }

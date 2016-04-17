@@ -100,7 +100,7 @@ if ($action == 'portfolio-gallery' && $alias) {// оверлей с фотога
 			<div class="container">
 				<div class="navbar-header">
 					<a class="menu-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" href="#"><span></span></a>
-					<a class="navbar-brand" href="/">KATERINA MEDOWAYA <span class="highlight h5">Photographer</span></a>
+					<a class="navbar-brand" href="/">KATERINA MEDOWAYA <span class="highlight navbar-brand-sub">Photographer</span></a>
 				</div>
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">

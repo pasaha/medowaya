@@ -10,7 +10,8 @@ $gallery_data = json_decode('{
 		{"preview": "/images/portfolio/fashion/preview/05.jpg", "image": "/images/portfolio/fashion/05.jpg"},
 		{"preview": "/images/portfolio/fashion/preview/06.jpg", "image": "/images/portfolio/fashion/06.jpg"},
 		{"preview": "/images/portfolio/fashion/preview/07.jpg", "image": "/images/portfolio/fashion/07.jpg"},
-		{"preview": "/images/portfolio/fashion/preview/08.jpg", "image": "/images/portfolio/fashion/08.jpg"}
+		{"preview": "/images/portfolio/fashion/preview/08.jpg", "image": "/images/portfolio/fashion/08.jpg"},
+		{"preview": "/images/portfolio/fashion/preview/09.jpg", "image": "/images/portfolio/fashion/09.jpg"}
 	]
 }
 ',true);
