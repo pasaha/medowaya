@@ -12,11 +12,6 @@ $menu_items = json_decode('[
 		"tpl":   "template/index/about.php"
 	 },
 	{
-		"title": "Opinions",
-		"id":  "opinions",
-		"tpl":   "template/index/opinions.php"
-	 },
-	{
 		"title": "Works",
 		"id":  "work",
 		"tpl":   "template/index/work.php"
@@ -28,6 +23,12 @@ $menu_items = json_decode('[
 	 }
 ]',true);
 
+/*	{
+		"title": "Opinions",
+		"id":  "opinions",
+		"tpl":   "template/index/opinions.php"
+	 },
+*/
 
 // ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== =====
 // ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== =====
@@ -44,7 +45,7 @@ $portfolio_items = json_decode('[
 		"url":     "#!index.php?action=portfolio-gallery&alias=gallery-portrait"
 	 },
 	{
-		"title":   "Shadow",
+		"title":   "art project &ldquo;Shadow&rdquo;",
 		"preview": "/images/portfolio/500x400-shadow_2.jpg",
 		"url":     "#!index.php?action=portfolio-gallery&alias=gallery-shadow"
 	 },

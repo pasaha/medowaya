@@ -31,6 +31,7 @@
 				<div class="col-md-6">
 					<div class="text-left scroll-in-animation" data-animation="fadeInRight">
 						<form class="ajax-form" data-message-class="colors-d background-95 heading border" action="/send-contact.php" method="post" novalidate="novalidate">
+							<input type="hidden" value="send" name="action"/>
 							<div class="row">
 								<div class="col-md-6 control-group">
 									<div class="alt-placeholder">Write Your Name</div>
