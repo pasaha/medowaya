@@ -242,5 +242,35 @@ if ($action == 'portfolio-gallery' && $alias) {// оверлей с фотога
 			$('html').addClass('ie11');
 		}
 		</script>
+
+<!-- Rating@Mail.ru counter -->
+<script type="text/javascript">
+var _tmr = window._tmr || (window._tmr = []);
+_tmr.push({id: "2901810", type: "pageView", start: (new Date()).getTime()});
+(function (d, w, id) {
+  if (d.getElementById(id)) return;
+  var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+  ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+  var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+  if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window, "topmailru-code");
+
+//(function ($, window, _tmr) {
+$(document).on("mousedown", 'input[type=submit]', function () {
+var keyName = 'submit';
+hitTmr('CLICK_' + keyName );
+});
+function hitTmr (key) {
+_tmr.push({ id: "2901810", type: "reachGoal", goal: key, url: window.location.origin + window.location.pathname + "/log_events/" + key + "/" });
+};
+//})(this.jQuery, this, window._tmr || (window._tmr = []));
+
+</script><noscript><div>
+<img src="//top-fwz1.mail.ru/counter?id=2901810;js=na" style="border:0;position:absolute;left:-9999px;" alt="" />
+</div></noscript>
+<!-- //Rating@Mail.ru counter -->
+
 	</body>
 </html>
+
+
