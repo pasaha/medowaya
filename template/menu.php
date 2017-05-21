@@ -35,25 +35,44 @@ $menu_items = json_decode('[
 
 $portfolio_items = json_decode('[
 	{
+		"title":   "Street",
+		"preview": "/images/portfolio/500x400-street.jpg",
+		"url":     "#!index.php?action=portfolio-gallery&alias=gallery-street&v1"
+	 },
+	{
+		"title":   "Portraits",
+		"preview": "/images/portfolio/500x400-portrait.jpg",
+		"url":     "#!index.php?action=portfolio-gallery&alias=gallery-portrait&v1"
+	 },
+	{
 		"title":   "Fashion",
 		"preview": "/images/portfolio/500x400-fashion_2.jpg",
-		"url":     "#!index.php?action=portfolio-gallery&alias=gallery-fashion"
+		"url":     "#!index.php?action=portfolio-gallery&alias=gallery-fashion&v1"
 	 },
 	{
-		"title":   "Portrait",
-		"preview": "/images/portfolio/500x400-portrait_2.jpg",
-		"url":     "#!index.php?action=portfolio-gallery&alias=gallery-portrait"
-	 },
-	{
-		"title":   "art project &ldquo;Shadow&rdquo;",
+		"title":   "Art project &ldquo;Shadow&rdquo;",
 		"preview": "/images/portfolio/500x400-shadow_2.jpg",
-		"url":     "#!index.php?action=portfolio-gallery&alias=gallery-shadow"
+		"url":     "#!index.php?action=portfolio-gallery&alias=gallery-shadow&v1"
 	 },
 	{
-		"title":   "Street",
-		"preview": "/images/portfolio/500x400-street_2.jpg",
-		"url":     "#!index.php?action=portfolio-gallery&alias=gallery-street"
-	 }
+		"title":   "Inspiration &ldquo;Anna&rdquo;",
+		"preview": "/images/portfolio/500x400-anna.jpg",
+		"url":     "#!index.php?action=portfolio-gallery&alias=gallery-anna&v1"
+	 },
+	{
+		"title":   "Love story",
+		"preview": "/images/portfolio/500x400-lovestory.jpg",
+		"url":     "#!index.php?action=portfolio-gallery&alias=gallery-lovestory&v1"
+	 },
+	{
+		"title":   "Gardens",
+		"preview": "/images/portfolio/500x400-gardens.jpg",
+		"url":     "#!index.php?action=portfolio-gallery&alias=gallery-gardens&v1"
+	 },
+	{
+		"title":   "Red door",
+		"preview": "/images/portfolio/500x400-reddoor.jpg"
+	}
 ]',true);
 // ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== =====
 ?>

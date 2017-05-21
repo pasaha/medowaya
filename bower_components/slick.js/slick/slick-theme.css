@@ -250,8 +250,8 @@ height: 80px !important;
 		margin: 0 1px;
 	}
 	.slick-dots li button.slick-preview {
-		width: 60px;
-		height: 45px;
+		width: 50px;
+		height: 35px;
 		background: #000 none no-repeat 0% 0%;
 		background-size: cover;
 		display: block;

@@ -12,15 +12,27 @@
 
 						<?php foreach ($portfolio_items AS $index => $item): ?>
 							<div class="item col-md-3 col-sm-4 col-xs-6">
-								<a href="<?php echo $item['url'] ?>" class="hover-overlay">
-									<img alt="<?php echo $item['title'] ?>" src="<?php echo $item['preview'] ?>" />
-									<div class="overlay background-90-e">
-										<div class="hidden-xs">
-											<p class="title heading-e"><?php echo $item['title'] ?></p>
-											<p class="text-center"><i class="fa fa-th heading-e"></i></p>
+								<?php if ($item['url']): ?>
+									<a href="<?php echo $item['url'] ?>" class="hover-overlay">
+										<img alt="<?php echo $item['title'] ?>" src="<?php echo $item['preview'] ?>" />
+										<div class="overlay background-90-e">
+											<div class="hidden-xs">
+												<p class="title heading-e"><?php echo $item['title'] ?></p>
+												<p class="text-center"><i class="fa fa-th heading-e"></i></p>
+											</div>
 										</div>
-									</div>
-								</a>
+									</a>
+								<?php else: ?>
+									<a class="hover-overlay">
+										<img alt="<?php echo $item['title'] ?>" src="<?php echo $item['preview'] ?>" />
+										<div class="overlay background-90-e">
+											<div class="hidden-xs">
+												<p class="title heading-e"><?php echo $item['title'] ?></p>
+												<p class="text-center"><i class="fa fa-th heading-e"></i></p>
+											</div>
+										</div>
+									</a>
+								<?php endif; ?>
 							</div>
 						<?php endforeach; ?>
 
