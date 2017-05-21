@@ -45,7 +45,7 @@ $portfolio_items = json_decode('[
 		"url":     "#!index.php?action=portfolio-gallery&alias=gallery-portrait"
 	 },
 	{
-		"title":   "Shadow",
+		"title":   "art project &ldquo;Shadow&rdquo;",
 		"preview": "/images/portfolio/500x400-shadow_2.jpg",
 		"url":     "#!index.php?action=portfolio-gallery&alias=gallery-shadow"
 	 },
